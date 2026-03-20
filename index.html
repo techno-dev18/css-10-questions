@@ -1,34 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <main>
-      <h2>
-        Q1. Using CSS Flexbox, create a 300px × 300px container with a 100px ×
-        100px box inside it.Place the box at the top-left corner of the
-        container.
-      </h2>
-      <div class="container q1">
-        <div class="box"></div>
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <main>
+    <h2>
+      Q1. Using CSS Flexbox, create a 300px × 300px container with a 100px ×
+      100px box inside it.Place the box at the top-left corner of the
+      container.
+    </h2>
+    <div class="container q1">
+      <div class="box"></div>
+    </div>
+    <h2>
+      Q2. Using CSS Flexbox, create a 300px × 300px container with a 100px ×
+      100px box centered both horizontally and vertically.
+    </h2>
+    <div class="q2">
+      <div class="box"></div>
+    </div>
+    <h2>
+      Q3.Design a responsive navigation bar using Flexbox where:Each
+      navigation item takes equal space On reducing screen size, the items
+      wrap to the next line
+    </h2>
+    <nav>
+      <ul class="navbar">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <h2>Q4.Create a Profile Card using CSS Flexbox with the following requirements:
+      Card width should be 200px Include a profile image, name, and description Align the content vertically</h2>
+      <div class="profile-card">
+        <img src="https://placehold.co/200x100?text=profile+image">
+        <h3>Profile Name</h3>
+        <p>Web Developer</p>
       </div>
-      <h2>
-        Q2. Using CSS Flexbox, create a 300px × 300px container with a 100px ×
-        100px box centered both horizontally and vertically.
-      </h2>
-      <div class="q2">
-        <div class="box"></div>
+    <h2>Q5.Using Flexbox,design a Course Card:
+      Use the image placeholder: (https://via.placeholder.com/150) Display the course title and description below the
+      image
+    </h2>
+    <div class="course-card">
+      <img src="https://via.placeholder.com/150">
+      <h3>Course Title</h3>
+      <p>Course description here</p>
+    </div>
+    <h2>Q6.Create a Product Card using CSS Flexbox:
+      Product image on the left Product details on the right Maximum width of the card should be 400px
+    </h2>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/100">
+      <div class="details">
+        <h3>Product</h3>
+        <p>Description</p>
       </div>
-      <h2>
-        Q3.Design a responsive navigation bar using Flexbox where:Each
-        navigation item takes equal space On reducing screen size, the items
-        wrap to the next line
-      </h2>
-    </main>
-  </body>
+    </div>
+    <h2>
+      Q7.Design a Testimonial Card using Flexbox:
+      Include a testimonial message and user name Maximum width of the card should be 400px Content should be properly
+      aligned
+    </h2>
+    <div class="testimonial">
+      <p>"Great service and amazing experience!"</p>
+      <h4>- User Name</h4>
+    </div>
+   
+    <h2>
+      Q8.Create a Pricing Card using CSS Flexbox:
+      Card width should be 200px Display plan name, price, and a button vertically Use Flexbox for alignment
+    </h2>
+    <div class="pricing-card">
+      <h3>Basic</h3>
+      <p>$10/month</p>
+      <button>Buy Now</button>
+    </div>
+    <h2>
+      Q9.Using Flexbox, create a row of Pricing Cards:
+      Each card should be 200px wide On smaller screens, cards should wrap one below the other
+    </h2>
+    <div class="pricing-container">
+      <div class="card">Plan 1</div>
+      <div class="card">Plan 2</div>
+      <div class="card">Plan 3</div>
+    </div>
+ 
+    <h2>
+      Q10.Design a responsive Footer using CSS Flexbox:
+      Footer should contain multiple columns Minimum width of each column should be 200px On smaller screens, columns
+      should wrap vertically
+    </h2>
+    <footer class="footer">
+      <div class="col">Column 1</div>
+      <div class="col">Column 2</div>
+      <div class="col">Column 3</div>
+    </footer>
+  </main>
+</body>
+
 </html>
